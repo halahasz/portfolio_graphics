@@ -1,0 +1,90 @@
+.my {
+	background-image: url(../../img/my.jpg);
+}
+
+.my p {
+	padding-right: 70%;
+	padding-top: 0;
+}
+
+.my p:nth-child(2) {
+	width: 40%;
+	font-family: "Overpass Mono";
+	padding-right: 40%;
+	text-align: left;
+}
+
+.my p:nth-child(3) {
+	width: 40%;
+	font-size: 22px;
+	font-family: "Poppins";
+	padding-right: 50%;
+	padding-top: 25%;
+	text-align: left;
+}
+
+.my span {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 568px) {
+
+	.my {
+		background-image: url(../../img/my_s.jpg);
+		background-size: cover;
+	}
+
+	.my p {
+		padding-right: 25%;
+		padding-top: 0;
+	}
+
+	.my p:nth-child(2) {
+		width: 90%;
+		left: 3%;
+		font-size: 10px;
+	}
+
+	.my p:nth-child(3) {
+		width: 100%;
+		left: 3%;
+		padding-top: 160%;
+		font-size: 10px;
+	} 
+	
+	.icons {
+		visibility: hidden;
+	}
+}
+
+@media only screen and (min-width: 569px) and (max-width: 1300px) {
+
+	.my {
+		background-image: url(../../img/my_m.jpg);
+		background-size: cover;
+	}
+
+	.my p {
+		padding-right: 50%;
+		padding-top: 0;
+	}
+
+	.my p:nth-child(2) {
+		width: 90%;
+		left: 3%;
+		right: 10%;
+	}
+
+	.my p:nth-child(3) {
+		width: 100%;
+		left: 3%;
+		padding-top: 230px;
+	}
+}
+
+@media only screen and (min-width: 1550px) {
+
+	.my {
+		background-image: url(../../img/my_l.jpg);
+	}
+}

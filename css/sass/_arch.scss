@@ -1,0 +1,83 @@
+
+
+.cafe {
+	background-image: url(../../img/cafe.jpg);
+}
+
+.qatar {
+	background-image: url(../../img/qatar.jpg);
+}
+
+.museum {
+	background-image: url(../../img/museum.jpg);
+}
+
+.houses {
+	background-image: url(../../img/houses.jpg);
+}
+
+@media only screen and (max-width: 568px) {
+	
+	.web, .graph {
+		visibility: hidden;
+	}
+
+	.cafe {
+		background-image: url(../../img/cafe_s.jpg);
+	}
+
+	.qatar {
+		background-image: url(../../img/qatar_s.jpg);
+	}
+
+	.museum {
+		background-image: url(../../img/museum_s.jpg);
+	}
+	
+	.houses {
+		background-image: url(../../img/houses_s.jpg);
+	}
+}
+
+@media only screen and (min-width: 569px) and (max-width: 1025px) {
+	
+	.web, .graph, .arch {
+		visibility: hidden;
+	}
+
+	.cafe {
+		background-image: url(../../img/cafe_m.jpg);
+	}
+
+	.qatar {
+		background-image: url(../../img/qatar_m.jpg);
+	}
+
+	.museum {
+		background-image: url(../../img/museum_m.jpg);
+	}
+	
+	.houses {
+		background-image: url(../../img/houses_m.jpg);
+	}
+}
+
+@media only screen and (min-width: 1550px) {
+
+	.cafe {
+		background-image: url(../../img/cafe_l.jpg);
+	}
+
+	.qatar {
+		background-image: url(../../img/qatar_l.jpg);
+	}
+
+	.museum {
+		background-image: url(../../img/museum_l.jpg);
+	}
+	
+	.houses {
+		background-image: url(../../img/houses_l.jpg);
+	}
+
+}

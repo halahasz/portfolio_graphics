@@ -1,0 +1,52 @@
+.sky {
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+	height:100vh;
+	margin:0;
+	padding:0;
+	background-image: url("../../img/sky.jpg");
+	background-position: center bottom;
+	animation: animatedBackground 50s linear infinite;
+	/* Safari and Chrome: */
+	-webkit-animation: animatedBackground 50s linear infinite;
+}
+@keyframes animatedBackground 
+{
+	from { background-position: 0 100%; }
+	to { background-position: 100% 0; }
+}
+@-webkit-keyframes  animatedBackground 
+{
+	from { background-position: 0 100%; }
+	to { background-position: 100% 0; }
+}
+
+.sprite {
+	background: url('../../img/stripe.png') no-repeat;
+	width: 140px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	animation-name: logo;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(5);
+	transition: ease-in-out;
+}
+
+@keyframes logo {
+	from {
+		background-position: 0px;
+	} to {
+		background-position: -700px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.sprite {
+		margin-top: -50px;
+		overflow: hidden;
+	}
+}

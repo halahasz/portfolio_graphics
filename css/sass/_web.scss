@@ -1,0 +1,64 @@
+.box {
+	width: 100%;
+	height: 80%;
+//	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 2%;
+}
+
+.afro {
+	background-image: url(../../img/afro.jpg);
+}
+
+.music {
+	background-image: url(../../img/music.jpg);
+}
+
+.chocolate {
+	background-image: url(../../img/chocolate.jpg);
+}
+
+@media only screen and (max-width: 568px) {
+
+	.afro {
+		background-image: url(../../img/afro_s.jpg);
+	}
+
+	.music {
+		background-image: url(../../img/music_s.jpg);
+	}
+
+	.chocolate {
+		background-image: url(../../img/chocolate_s.jpg);
+	}
+}
+
+@media only screen and (min-width: 569px) and (max-width: 1025px) {
+
+	.afro {
+		background-image: url(../../img/afro_m.jpg);
+	}
+
+	.music {
+		background-image: url(../../img/music_m.jpg);
+	}
+
+	.chocolate {
+		background-image: url(../../img/chocolate_m.jpg);
+	}
+}
+
+@media only screen and (min-width: 1550px) {
+
+	.afro {
+		background-image: url(../../img/afro_l.jpg);
+	}
+
+	.music {
+		background-image: url(../../img/music_l.jpg);
+	}
+
+	.chocolate {
+		background-image: url(../../img/chocolate_l.jpg);
+	}
+}

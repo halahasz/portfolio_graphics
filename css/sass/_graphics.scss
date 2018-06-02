@@ -1,0 +1,183 @@
+#left-arrow {
+	display: none;
+	position: absolute;
+	height: 20px;
+	top: 50%;
+}
+
+#right-arrow {
+	display: none;
+	position: absolute;
+	height: 20px;
+	top: 50%;
+	right: 0%;
+}
+
+#pp-nav li, .pp-slidesNav li {
+	width: 100px;
+}
+
+#pp-nav span, .pp-slidesNav span {
+	width: 108px;
+	height: 1px;
+	border-radius: 0;
+}
+
+@media only screen and (max-width: 1150px) {
+	#pp-nav li, .pp-slidesNav li {
+		width: 40px;
+	}
+	#pp-nav span, .pp-slidesNav span {
+		width: 50px;
+	}
+
+	#pp-nav.right {
+		top: 95%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#pp-nav li, .pp-slidesNav li {
+		width: 18px;
+	}
+	#pp-nav span, .pp-slidesNav span {
+		width: 28px;
+	}
+}
+
+.old p {
+	color: white;
+}
+
+.old {
+	background-image: url(../../img/old.jpg);
+}
+
+.seas {
+	background-image: url(../../img/seasons.jpg);
+}
+
+.man {
+	background-image: url(../../img/manipulations.jpg);
+}
+
+.pastaio {
+	background-image: url(../../img/pastaio.jpg);
+}
+
+.hand {
+	background-image: url(../../img/hand.jpg);
+}
+
+@media only screen and (max-width: 568px) {
+	
+	.web, .arch {
+		visibility: hidden;
+	}
+
+	.hand p {
+		color: black;
+	}
+
+	.box {
+		background-position: center;
+	}
+
+	.man {
+		background-image: url(../../img/manipulations_s.jpg);
+	}
+
+	.seas {
+		background-image: url(../../img/seasons_s.jpg);
+	}
+
+	.old {
+		background-image: url(../../img/old_s.jpg);
+	}
+
+	.pastaio {
+		background-image: url(../../img/pastaio_s.jpg);
+	}
+
+	.hand {
+		background-image: url(../../img/hand_s.jpg);
+	}
+
+	.box p {
+		font-size: 25px;
+		padding: 15px 0 0;
+	}
+
+	.box p:nth-child(2) {
+		padding: 40px 0 0;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 569px) and (max-width: 1025px) {
+	
+	.web, .arch {
+		visibility: hidden;
+	}
+
+	.hand p {
+		color: black;
+	}
+
+	.box {
+		background-position: center;
+	}
+
+	.man {
+		background-image: url(../../img/manipulations_m.jpg);
+	}
+
+	.seas {
+		background-image: url(../../img/seasons_m.jpg);
+	}
+
+	.old {
+		background-image: url(../../img/old_m.jpg);
+	}
+
+	.pastaio {
+		background-image: url(../../img/pastaio_m.jpg);
+	}
+
+	.hand {
+		background-image: url(../../img/hand_m.jpg);
+	}
+
+	.box p {
+		font-size: 40px;
+		padding: 30px 30px 0 0;
+	}
+
+	.box p:nth-child(2) {
+		padding: 70px 30px 0 0;
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 1550px) {
+	
+	.man {
+		background-image: url(../../img/manipulations_l.jpg);
+	}
+
+	.seas {
+		background-image: url(../../img/seasons_l.jpg);
+	}
+
+	.old {
+		background-image: url(../../img/old_l.jpg);
+	}
+
+	.pastaio {
+		background-image: url(../../img/pastaio_l.jpg);
+	}
+
+	.hand {
+		background-image: url(../../img/hand_l.jpg);
+	}
+}
