@@ -129,7 +129,7 @@ body {
     margin-top: -50px;
     overflow: hidden; } }
 #hide {
-  display: none; }
+  visibility:hidden; }
 
 .me {
   height: 17px;
