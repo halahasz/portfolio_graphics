@@ -3,9 +3,9 @@ $(document).ready(function() {
 	  $('.sky').delay(3500).fadeOut(2000);
    
 
-    window.addEventListener("load", function(){
-      $('#hide').delay(3500).fadeIn(2000);
-    });
+          window.addEventListener("load", function(){
+          $('#hide').css('visibility', 'visible');
+           });
 
 	$('.box').backgroundMove({
 		movementStrength:'60'
