@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,8 +88,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -42,11 +119,13 @@ footer, header, hgroup, menu, nav, section {
   padding: 0;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-size: 13px;
   line-height: 25px;
@@ -102,6 +181,7 @@ body {
   position: relative;
   background-size: cover;
   height: 100vh;
+  z-index: 1000;
   margin: 0;
   padding: 0;
   background-image: url("../../img/sky.jpg");
@@ -156,7 +236,7 @@ body {
   }
 }
 #hide {
-  display: none;
+  visibility: hidden;
 }
 
 .me {
@@ -375,22 +455,26 @@ body {
   right: 0%;
 }
 
-#pp-nav li, .pp-slidesNav li {
+#pp-nav li,
+.pp-slidesNav li {
   width: 100px;
 }
 
-#pp-nav span, .pp-slidesNav span {
+#pp-nav span,
+.pp-slidesNav span {
   width: 108px;
   height: 1px;
   border-radius: 0;
 }
 
 @media only screen and (max-width: 1150px) {
-  #pp-nav li, .pp-slidesNav li {
+  #pp-nav li,
+  .pp-slidesNav li {
     width: 40px;
   }
 
-  #pp-nav span, .pp-slidesNav span {
+  #pp-nav span,
+  .pp-slidesNav span {
     width: 50px;
   }
 
@@ -399,11 +483,13 @@ body {
   }
 }
 @media only screen and (max-width: 550px) {
-  #pp-nav li, .pp-slidesNav li {
+  #pp-nav li,
+  .pp-slidesNav li {
     width: 18px;
   }
 
-  #pp-nav span, .pp-slidesNav span {
+  #pp-nav span,
+  .pp-slidesNav span {
     width: 28px;
   }
 }
@@ -432,7 +518,8 @@ body {
 }
 
 @media only screen and (max-width: 568px) {
-  .web, .arch {
+  .web,
+  .arch {
     visibility: hidden;
   }
 
@@ -475,7 +562,8 @@ body {
   }
 }
 @media only screen and (min-width: 569px) and (max-width: 1025px) {
-  .web, .arch {
+  .web,
+  .arch {
     visibility: hidden;
   }
 
@@ -943,10 +1031,10 @@ footer img {
 
 .my p:nth-child(2) {
   width: 40%;
+  font-size: 18px;
   font-family: "Overpass Mono";
   padding-right: 40%;
   text-align: left;
-  font-size: 19px;
 }
 
 .my p:nth-child(3) {
@@ -982,7 +1070,7 @@ footer img {
   .my p:nth-child(3) {
     width: 100%;
     left: 3%;
-    padding-top: 160%;
+    padding-top: 140%;
     font-size: 10px;
   }
 
@@ -1010,9 +1098,10 @@ footer img {
   .my p:nth-child(3) {
     width: 100%;
     left: 3%;
-    padding-top: 230px;
+    padding-top: 300px;
   }
 }
+
 @media only screen and (min-width: 1550px) {
   .my {
     background-image: url(../../img/my_l.jpg);
@@ -1035,7 +1124,8 @@ footer img {
 }
 
 @media only screen and (max-width: 568px) {
-  .web, .graph {
+  .web,
+  .graph {
     visibility: hidden;
   }
 
@@ -1056,7 +1146,9 @@ footer img {
   }
 }
 @media only screen and (min-width: 569px) and (max-width: 1025px) {
-  .web, .graph, .arch {
+  .web,
+  .graph,
+  .arch {
     visibility: hidden;
   }
 
